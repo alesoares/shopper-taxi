@@ -20,5 +20,6 @@ build/
 tmp/
 temp/
 .vscode/
+.env
 
 

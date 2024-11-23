@@ -1,4 +1,7 @@
 import { server } from './server/Server';
 
 
-server.listen(8080, () => console.log("Server ON!!! { º__º }"));
+
+
+server.listen(process.env.PORT_BACKEND || 8080, () => console.log("Server ON!!! { º__º }"));
+    
